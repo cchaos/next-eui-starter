@@ -17,7 +17,7 @@ const { NormalModuleReplacementPlugin } = require('webpack');
  */
 const usePathPrefix = process.env.PATH_PREFIX === 'true';
 
-const pathPrefix = usePathPrefix ? derivePathPrefix() : '';
+const pathPrefix = usePathPrefix ? derivePathPrefix() : 'next-eui-starter';
 
 const themeConfig = buildThemeConfig();
 
